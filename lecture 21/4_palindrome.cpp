@@ -18,6 +18,7 @@ bool isPalindrome(int x) {
     // For odd digits:  x == rev/10
     return (x == rev || x == rev / 10);
 }
+//
 
 int main() {
     int x;
