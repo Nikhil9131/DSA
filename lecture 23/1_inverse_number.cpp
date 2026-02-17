@@ -5,14 +5,14 @@ int main() {
  int num;
  cin>>num;
  int temp = num;
- int rev= 0;
+ int count= 0;
 
     while(temp != 0){ 
-        rev++;
+        count++;
          temp /= 10;
  }
 
- vector <int> ans(rev);
+ vector <int> ans(count);
  
         int i = 0;
             while(num != 0){
@@ -23,7 +23,7 @@ int main() {
                 num /= 10;
             }
 
-        for(int i =rev-1; i>=0 ; i--){
+        for(int i =count-1; i>=0 ; i--){
             cout<<ans[i];
  }
  return 0;
