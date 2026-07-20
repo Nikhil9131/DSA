@@ -45,6 +45,7 @@ int main() {
     cout << "Enter second string: ";
     cin >> word2;
 
+    
     Solution obj;
 
     if (obj.closeStrings(word1, word2))
