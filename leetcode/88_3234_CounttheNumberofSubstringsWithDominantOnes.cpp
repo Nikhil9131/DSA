@@ -29,9 +29,7 @@ public:
                 len = 0;
             }
         }
-
         int m = zeros.size();
-
         // Enumerate number of zeros in substring
         for (int k = 1; k <= m; k++) {
 
@@ -49,8 +47,7 @@ public:
                 int leftChoices = first - leftBound;
                 int rightChoices = rightBound - last;
 
-                int zeroLength = last - first + 1;
-
+                int zeroLength = last - first + 1; 
                 // Extra ones needed
                 int need = max(0, k * k - (zeroLength - k));
 
