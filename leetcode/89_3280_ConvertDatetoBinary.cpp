@@ -29,10 +29,8 @@ public:
 
 int main() {
     Solution obj;
-
     string date;
     cin >> date;
-
     cout << obj.convertDateToBinary(date);
 
     return 0;
