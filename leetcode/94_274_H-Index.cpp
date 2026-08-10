@@ -22,7 +22,6 @@ public:
         return h;
     }
 };
-
 int main() {
     Solution obj;
 
