@@ -13,8 +13,8 @@ public:
         // Sort cookie sizes
         sort(s.begin(), s.end());
 
-        int i = 0;  // child index
-        int j = 0;  // cookie index
+        size_t i = 0;  // child index
+        size_t j = 0;  // cookie index
 
         while (i < g.size() && j < s.size()) {
 
@@ -26,7 +26,6 @@ public:
             // Move to next cookie
             j++;
         }
-
         return i;
     }
 };
