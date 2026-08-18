@@ -18,10 +18,8 @@ public:
 };
 int main() {
     Solution obj;
-
     int n;
     cin >> n;
-
     vector<int> ans = obj.countBits(n);
 
     for (int i = 0; i <= n; i++) {
