@@ -44,7 +44,6 @@ bool isMatch(string s, string p) {
 }
 
 int main() {
-
     string s, p;
 
     cout << "Enter string: ";
